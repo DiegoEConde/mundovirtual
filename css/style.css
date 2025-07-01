@@ -9,11 +9,17 @@ body {
   background-color: #f4f4f4;
   color: #222;
   line-height: 1.6;
+  padding: 0 15px;
+}
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .banner {
   width: 100%;
-  max-height: 250px;
+  max-height: 200px;
   object-fit: cover;
   display: block;
 }
@@ -206,4 +212,33 @@ footer {
   margin-top: 10px;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+
+
+/*========= MEDIA QUERIES =========*/
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .contenedor-consolas,
+  .contenedor-videojuegos {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .tarjeta-consola,
+  .tarjeta-videojuego {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .tarjeta-consola,
+  .tarjeta-videojuego {
+    width: 100%;
+  }
 }
