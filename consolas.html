@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUNDO VIRTUAL - CONSOLAS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <img src="image/mundovirtual.png" alt="Banner Mundo Virtual" class="banner">
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="consolas.html">Consolas</a></li>
+                <li><a href="videojuegos.html">Videojuegos</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="consolas">
+            <h2>Consolas</h2>
+            <div class="contenedor-consolas">
+                <div class="tarjeta-consola" id="ps1">
+                    <img src="image/consolas/ps1.png" alt="PlayStation 1">
+                    <p>PlayStation</p>
+                </div>
+                <div class="tarjeta-consola" id="ps2">
+                    <img src="image/consolas/ps2.jpg" alt="PlayStation 2">
+                    <p>PlayStation 2</p>
+                </div>
+                <div class="tarjeta-consola" id="ps3">
+                    <img src="image/consolas/ps3.jpg" alt="PlayStation 3">
+                    <p>PlayStation 3</p>
+                </div>
+                <div class="tarjeta-consola" id="ps4">
+                    <img src="image/consolas/ps4.webp" alt="PlayStation 4">
+                    <p>PlayStation 4</p>
+                </div>
+                <div class="tarjeta-consola" id="ps5">
+                    <img src="image/consolas/ps5.webp" alt="PlayStation 5">
+                    <p>PlayStation 5</p>
+                </div>
+            </div>
+        </section>
+    </main>      
+    
+    <!-- Modal vacío. La info se carga directamente desde un array en JS -->
+        <div id="modal" class="modal">
+        <div class="modal-contenido" id="modal-contenido">
+            <span class="cerrar">&times;</span>
+            <!-- zona de contenido desde JS -->
+        </div>
+        </div>
+    <footer>
+        <p>&copy; 2025 Diego Conde - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script/script-consolas.js"></script>
+</body>
+</html>
