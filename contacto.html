@@ -20,9 +20,47 @@
         </nav>
     </header>
     <main>
-        
+        <h2>Rellena tus datos y envianos un E-Mail</h2>
+
+        <label for="nombre">Nombre Completo: </label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="pais">Pais: </label>
+        <select id="pais" name="pais" required>
+            <option value="AR">ARGENTINA</option>
+            <option value="CH">CHILE</option>
+            <option value="ES">ESPAÑA</option>
+            <option value="MX">MEXICO</option>
+            <option value="PA">PARAGUAY</option>
+            <option value="UR">URUGUAY</option>
+        </select>
+
+        <label for="email">E-Mail: </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="texto">Comentario: </label>
+        <textarea name="texto" id="texto" required></textarea>
+
+        <!-- DIV para posicionar abajo las redes sociales -->
+        <div class="redes">
+            <a href="http://www.instagram.com/mundovirtual" target="_blank" rel="noopener noreferrer">
+                <img src="image/redes/instagram.jpg" alt="Instagram" title="Ir a Instagram">
+            </a>
+            <a href="http://www.facebook.com/mundovirtual" target="_blank" rel="noopener noreferrer">
+                <img src="image/redes/facebook.jpg" alt="Facebook" title="Ir a Facebook">
+            </a>
+            <a href="http://www.x.com/mundovirtual" target="_blank" rel="noopener noreferrer">
+                <img src="image/redes/x.jpg" alt="X" title="Ir a X">
+            </a>
+            <a href="http://www.tiktok.com/mundovirtual" target="_blank" rel="noopener noreferrer">
+                <img src="image/redes/tiktok.jpg" alt="TikTok" title="Ir a TikTok">
+            </a>
+        </div>
+    </main>  
     <footer>
         <p>&copy; 2025 Diego Conde - Todos los derechos reservados</p>
     </footer>
+
+    <script src="script/script-contacto.js"></script>
 </body>
 </html>

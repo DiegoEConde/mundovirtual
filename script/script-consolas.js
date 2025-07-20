@@ -47,7 +47,6 @@ const consolas = [
   }
 ];
 
-
 const modal = document.getElementById("modal");
 const modalContenido = document.getElementById("modal-contenido");
 const cerrar = document.querySelector(".cerrar");
